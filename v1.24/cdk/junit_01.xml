@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <testsuite name="Kubernetes e2e suite" tests="356" failures="356" errors="0" time="1800.04">
-      <testcase name="BeforeSuite" classname="Kubernetes e2e suite" time="1800.038390537">
-          <failure type="Failure">test/e2e/e2e.go:77&#xA;May 28 12:28:27.637: Unexpected error:&#xA;    &lt;*errors.errorString | 0xc000208270&gt;: {&#xA;        s: &#34;timed out waiting for the condition&#34;,&#xA;    }&#xA;    timed out waiting for the condition&#xA;occurred&#xA;test/e2e/e2e.go:231</failure>
+  <testsuite name="Kubernetes e2e suite" tests="356" failures="356" errors="0" time="1800.043">
+      <testcase name="BeforeSuite" classname="Kubernetes e2e suite" time="1800.041038687">
+          <failure type="Failure">test/e2e/e2e.go:77&#xA;Jun  4 12:33:20.331: Unexpected error:&#xA;    &lt;*errors.errorString | 0xc000208270&gt;: {&#xA;        s: &#34;timed out waiting for the condition&#34;,&#xA;    }&#xA;    timed out waiting for the condition&#xA;occurred&#xA;test/e2e/e2e.go:231</failure>
       </testcase>
   </testsuite>

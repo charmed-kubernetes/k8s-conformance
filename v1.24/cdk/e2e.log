@@ -1,261 +1,261 @@
-I0528 11:58:25.595723      21 e2e.go:129] Starting e2e run "5fd1c98d-6cbb-4430-a19b-359629b0f2b4" on Ginkgo node 1
+I0604 12:03:17.780378      19 e2e.go:129] Starting e2e run "f4e94b92-8c3d-4c5b-bbdd-3f53e092089d" on Ginkgo node 1
 {"msg":"Test Suite starting","total":356,"completed":0,"skipped":0,"failed":0}
 Running Suite: Kubernetes e2e suite
 ===================================
-Random Seed: 1653739105 - Will randomize all specs
+Random Seed: 1654344197 - Will randomize all specs
 Will run 356 of 6965 specs
 
-May 28 11:58:27.599: INFO: >>> kubeConfig: /tmp/kubeconfig-2436342412
-May 28 11:58:27.600: INFO: Waiting up to 30m0s for all (but 0) nodes to be schedulable
-May 28 11:58:27.608: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 11:58:27.608: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:58:27.608: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:58:27.608: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 11:58:57.624: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 11:58:57.624: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:58:57.624: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:58:57.624: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 11:59:27.628: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 11:59:27.628: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:59:27.628: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:59:27.628: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 11:59:57.626: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 11:59:57.626: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:59:57.626: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 11:59:57.626: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:00:27.624: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:00:27.624: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:00:27.624: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:00:27.624: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:00:57.620: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:00:57.620: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:00:57.620: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:00:57.620: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:01:27.617: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:01:27.617: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:01:27.617: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:01:27.617: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:01:57.626: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:01:57.626: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:01:57.626: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:01:57.626: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:02:27.617: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:02:27.617: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:02:27.617: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:02:27.617: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:02:57.623: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:02:57.623: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:02:57.623: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:02:57.623: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:03:27.623: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:03:27.623: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:03:27.623: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:03:27.623: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:03:57.617: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:03:57.617: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:03:57.617: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:03:57.617: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:04:27.626: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:04:27.626: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:04:27.626: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:04:27.626: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:04:57.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:04:57.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:04:57.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:04:57.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:05:27.618: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:05:27.618: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:05:27.619: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:05:27.619: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:05:57.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:05:57.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:05:57.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:05:57.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:06:27.625: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:06:27.625: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:06:27.625: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:06:27.625: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:06:57.622: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:06:57.622: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:06:57.623: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:06:57.623: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:07:27.623: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:07:27.623: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:07:27.623: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:07:27.623: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:07:57.628: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:07:57.628: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:07:57.628: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:07:57.628: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:08:27.620: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:08:27.620: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:08:27.620: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:08:27.620: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:08:57.613: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:08:57.613: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:08:57.613: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:08:57.613: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:09:27.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:09:27.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:09:27.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:09:27.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:09:57.621: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:09:57.621: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:09:57.621: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:09:57.621: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:10:27.621: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:10:27.621: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:10:27.621: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:10:27.621: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:10:57.612: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:10:57.612: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:10:57.612: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:10:57.612: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:11:27.618: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:11:27.618: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:11:27.618: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:11:27.618: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:11:57.616: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:11:57.616: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:11:57.616: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:11:57.616: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:12:27.620: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:12:27.620: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:12:27.620: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:12:27.620: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:12:57.620: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:12:57.620: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:12:57.620: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:12:57.620: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:13:27.625: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:13:27.625: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:13:27.625: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:13:27.625: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:13:57.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:13:57.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:13:57.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:13:57.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:14:27.618: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:14:27.618: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:14:27.618: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:14:27.618: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:14:57.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:14:57.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:14:57.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:14:57.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:15:27.612: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:15:27.612: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:15:27.612: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:15:27.612: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:15:57.617: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:15:57.617: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:15:57.617: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:15:57.617: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:16:27.617: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:16:27.617: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:16:27.617: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:16:27.617: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:16:57.616: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:16:57.616: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:16:57.616: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:16:57.616: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:17:27.618: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:17:27.618: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:17:27.618: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:17:27.618: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:17:57.622: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:17:57.622: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:17:57.622: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:17:57.622: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:18:27.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:18:27.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:18:27.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:18:27.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:18:57.616: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:18:57.616: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:18:57.616: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:18:57.616: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:19:27.616: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:19:27.616: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:19:27.616: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:19:27.616: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:19:57.614: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:19:57.614: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:19:57.614: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:19:57.614: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:20:27.614: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:20:27.614: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:20:27.614: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:20:27.614: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:20:57.614: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:20:57.614: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:20:57.614: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:20:57.614: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:21:27.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:21:27.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:21:27.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:21:27.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:21:57.612: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:21:57.612: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:21:57.612: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:21:57.612: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:22:27.614: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:22:27.614: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:22:27.614: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:22:27.614: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:22:57.616: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:22:57.616: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:22:57.616: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:22:57.616: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:23:27.612: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:23:27.612: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:23:27.612: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:23:27.612: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:23:57.613: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:23:57.613: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:23:57.613: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:23:57.613: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:24:27.614: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:24:27.614: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:24:27.614: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:24:27.614: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:24:57.611: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:24:57.611: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:24:57.611: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:24:57.611: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:25:27.620: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:25:27.621: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:25:27.621: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:25:27.621: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:25:57.628: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:25:57.628: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:25:57.628: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:25:57.628: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:26:27.612: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:26:27.612: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:26:27.612: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:26:27.612: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:26:57.626: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:26:57.626: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:26:57.626: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:26:57.626: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:27:27.613: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:27:27.613: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:27:27.613: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:27:27.613: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:27:57.615: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:27:57.615: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:27:57.615: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:27:57.615: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:28:27.633: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:28:27.633: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:28:27.633: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:28:27.634: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:28:27.636: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
-May 28 12:28:27.636: INFO: 	-> Node ip-172-31-45-1 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:28:27.636: INFO: 	-> Node ip-172-31-72-25 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
-May 28 12:28:27.636: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
-May 28 12:28:27.637: FAIL: Unexpected error:
+Jun  4 12:03:20.290: INFO: >>> kubeConfig: /tmp/kubeconfig-2456471098
+Jun  4 12:03:20.292: INFO: Waiting up to 30m0s for all (but 0) nodes to be schedulable
+Jun  4 12:03:20.314: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:03:20.314: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:03:20.314: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:03:20.314: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:03:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:03:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:03:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:03:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:04:20.323: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:04:20.323: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:04:20.323: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:04:20.323: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:04:50.321: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:04:50.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:04:50.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:04:50.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:05:20.328: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:05:20.328: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:05:20.329: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:05:20.329: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:05:50.321: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:05:50.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:05:50.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:05:50.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:06:20.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:06:20.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:06:20.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:06:20.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:06:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:06:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:06:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:06:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:07:20.321: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:07:20.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:07:20.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:07:20.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:07:50.321: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:07:50.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:07:50.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:07:50.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:08:20.326: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:08:20.326: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:08:20.326: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:08:20.326: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:08:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:08:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:08:50.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:08:50.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:09:20.329: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:09:20.329: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:09:20.329: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:09:20.329: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:09:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:09:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:09:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:09:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:10:20.330: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:10:20.330: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:10:20.330: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:10:20.330: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:10:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:10:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:10:50.323: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:10:50.323: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:11:20.328: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:11:20.328: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:11:20.328: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:11:20.328: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:11:50.319: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:11:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:11:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:11:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:12:20.335: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:12:20.335: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:12:20.335: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:12:20.335: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:12:50.334: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:12:50.334: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:12:50.335: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:12:50.335: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:13:20.324: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:13:20.324: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:13:20.324: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:13:20.324: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:13:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:13:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:13:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:13:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:14:20.332: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:14:20.332: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:14:20.332: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:14:20.332: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:14:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:14:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:14:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:14:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:15:20.328: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:15:20.328: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:15:20.328: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:15:20.328: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:15:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:15:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:15:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:15:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:16:20.329: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:16:20.329: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:16:20.329: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:16:20.329: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:16:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:16:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:16:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:16:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:17:20.329: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:17:20.329: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:17:20.329: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:17:20.329: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:17:50.321: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:17:50.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:17:50.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:17:50.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:18:20.330: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:18:20.330: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:18:20.330: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:18:20.330: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:18:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:18:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:18:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:18:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:19:20.327: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:19:20.327: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:19:20.327: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:19:20.327: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:19:50.319: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:19:50.319: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:19:50.319: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:19:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:20:20.327: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:20:20.327: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:20:20.327: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:20:20.327: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:20:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:20:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:20:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:20:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:21:20.326: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:21:20.326: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:21:20.326: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:21:20.326: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:21:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:21:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:21:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:21:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:22:20.328: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:22:20.328: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:22:20.328: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:22:20.328: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:22:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:22:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:22:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:22:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:23:20.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:23:20.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:23:20.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:23:20.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:23:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:23:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:23:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:23:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:24:20.325: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:24:20.325: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:24:20.325: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:24:20.325: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:24:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:24:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:24:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:24:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:25:20.321: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:25:20.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:25:20.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:25:20.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:25:50.331: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:25:50.331: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:25:50.331: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:25:50.331: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:26:20.324: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:26:20.324: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:26:20.324: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:26:20.324: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:26:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:26:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:26:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:26:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:27:20.335: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:27:20.335: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:27:20.335: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:27:20.335: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:27:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:27:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:27:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:27:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:28:20.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:28:20.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:28:20.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:28:20.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:28:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:28:50.321: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:28:50.321: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:28:50.321: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:29:20.326: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:29:20.327: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:29:20.327: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:29:20.327: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:29:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:29:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:29:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:29:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:30:20.327: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:30:20.327: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:30:20.327: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:30:20.327: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:30:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:30:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:30:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:30:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:31:20.325: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:31:20.325: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:31:20.326: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:31:20.326: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:31:50.322: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:31:50.322: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:31:50.322: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:31:50.322: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:32:20.327: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:32:20.327: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:32:20.327: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:32:20.327: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:32:50.320: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:32:50.320: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:32:50.320: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:32:50.320: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:33:20.326: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:33:20.326: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:33:20.326: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:33:20.326: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:33:20.330: INFO: Unschedulable nodes= 2, maximum value for starting tests= 0
+Jun  4 12:33:20.330: INFO: 	-> Node ip-172-31-20-134 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:33:20.330: INFO: 	-> Node ip-172-31-49-60 [[[ Ready=true, Network(available)=false, Taints=[{juju.is/kubernetes-control-plane true NoSchedule <nil>}], NonblockingTaints=node-role.kubernetes.io/control-plane,node-role.kubernetes.io/master ]]]
+Jun  4 12:33:20.330: INFO: ==== node wait: 3 out of 5 nodes are ready, max notReady allowed 0.  Need 2 more before starting.
+Jun  4 12:33:20.331: FAIL: Unexpected error:
     <*errors.errorString | 0xc000208270>: {
         s: "timed out waiting for the condition",
     }
@@ -267,23 +267,23 @@ k8s.io/kubernetes/test/e2e.setupSuite()
 	test/e2e/e2e.go:231 +0x368
 k8s.io/kubernetes/test/e2e.glob..func1()
 	test/e2e/e2e.go:80 +0x4e
-reflect.Value.call({0x62e7880?, 0x73fa168?, 0x6c49000?}, {0x714d41d, 0x4}, {0xc0002c33a8, 0x0, 0x24ec5a9?})
+reflect.Value.call({0x62e7880?, 0x73fa168?, 0xc001063388?}, {0x714d41d, 0x4}, {0xc0010633a8, 0x0, 0x24ec5a9?})
 	/usr/local/go/src/reflect/value.go:556 +0x845
-reflect.Value.Call({0x62e7880?, 0x73fa168?, 0xe?}, {0xc0002c33a8, 0x0, 0x0})
+reflect.Value.Call({0x62e7880?, 0x73fa168?, 0xc0010633e8?}, {0xc0010633a8, 0x0, 0x0})
 	/usr/local/go/src/reflect/value.go:339 +0xbf
 k8s.io/kubernetes/test/e2e.RunE2ETests(0x257e617?)
 	test/e2e/e2e.go:130 +0x686
 k8s.io/kubernetes/test/e2e.TestE2E(0x24efd19?)
 	test/e2e/e2e_test.go:136 +0x19
-testing.tRunner(0xc00095d1e0, 0x73fa160)
+testing.tRunner(0xc0007a2ea0, 0x73fa160)
 	/usr/local/go/src/testing/testing.go:1439 +0x102
 created by testing.(*T).Run
 	/usr/local/go/src/testing/testing.go:1486 +0x35f
-Failure [1800.038 seconds]
+Failure [1800.041 seconds]
 [BeforeSuite] BeforeSuite 
 test/e2e/e2e.go:77
 
-  May 28 12:28:27.637: Unexpected error:
+  Jun  4 12:33:20.331: Unexpected error:
       <*errors.errorString | 0xc000208270>: {
           s: "timed out waiting for the condition",
       }
@@ -292,24 +292,24 @@ test/e2e/e2e.go:77
 
   test/e2e/e2e.go:231
 ------------------------------
-May 28 12:28:27.637: INFO: Running AfterSuite actions on all nodes
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage.glob..func19.2
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage.glob..func9.2
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage.glob..func8.2
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func17.3
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func9.2
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func4.2
-May 28 12:28:27.637: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func1.3
-May 28 12:28:27.637: INFO: Running AfterSuite actions on node 1
-May 28 12:28:27.637: INFO: Skipping dumping logs from cluster
+Jun  4 12:33:20.331: INFO: Running AfterSuite actions on all nodes
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage.glob..func19.2
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage.glob..func9.2
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage.glob..func8.2
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func17.3
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func9.2
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func4.2
+Jun  4 12:33:20.332: INFO: Running Cleanup Action: k8s.io/kubernetes/test/e2e/storage/vsphere.glob..func1.3
+Jun  4 12:33:20.332: INFO: Running AfterSuite actions on node 1
+Jun  4 12:33:20.332: INFO: Skipping dumping logs from cluster
 
 JUnit report was created: /tmp/sonobuoy/results/junit_01.xml
 {"msg":"Test Suite completed","total":356,"completed":0,"skipped":0,"failed":0}
 
-Ran 356 of 0 Specs in 1800.040 seconds
+Ran 356 of 0 Specs in 1800.044 seconds
 FAIL! -- 0 Passed | 356 Failed | 0 Pending | 0 Skipped
---- FAIL: TestE2E (1802.04s)
+--- FAIL: TestE2E (1802.55s)
 FAIL
 
-Ginkgo ran 1 suite in 30m2.176042725s
+Ginkgo ran 1 suite in 30m2.79321009s
 Test Suite Failed
